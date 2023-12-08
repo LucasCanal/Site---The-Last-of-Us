@@ -12,7 +12,7 @@ botoesCarrossel.forEach((botao, indice) => {
 
         mostrarImagemDeFundo(indice);
     })
-})
+}) 
 
 function mostrarImagemDeFundo(indice) {
     imagens[indice].classList.add('ativa');
